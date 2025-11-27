@@ -1,3 +1,7 @@
+name: Self-Hosted Runner Test
+
+on: [push]   # triggers workflow on every push
+
 jobs:
   build:
     runs-on: [self-hosted, macOS, X64]
